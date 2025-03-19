@@ -22,4 +22,5 @@ pip3 install numpy  pandas  xgboost  matplotlib sklearn
 # Example of binary training using XGBoost:
 
 cd Binary/xgboost
+
 python3 binary_jpsi.py
