@@ -1,4 +1,4 @@
-Example of using hipe4ml
+# Example of using hipe4ml
 
 https://github.com/hipe4ml/hipe4ml 
 documentation: https://hipe4ml.github.io
@@ -11,10 +11,10 @@ pip3 install uproot
 pip3 install xxhash
 pip3 install lz4
 
-# check if properly installed
+### check if properly installed
 tests/run_tests.sh
 
-# if having errors, then highly likely some packages are missing
+### if having errors, then highly likely some packages are missing
 pip3 install numpy  pandas  xgboost  matplotlib sklearn
 
 Example of binary training using XGBoost:
