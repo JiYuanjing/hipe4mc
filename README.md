@@ -12,11 +12,14 @@ pip3 install xxhash
 pip3 install lz4
 
 ### check if properly installed
+
 tests/run_tests.sh
 
 ### if having errors, then highly likely some packages are missing
+
 pip3 install numpy  pandas  xgboost  matplotlib sklearn
 
-Example of binary training using XGBoost:
+# Example of binary training using XGBoost:
+
 cd Binary/xgboost
 python3 binary_jpsi.py
